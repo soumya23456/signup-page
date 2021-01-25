@@ -3,7 +3,7 @@ import React from "react";
 export default class Signup extends React.Component {
   render() {
     return (
-      <div>
+      <div id="myForm">
         <h1>login</h1>
         <div class="mb-3">
           <label for="signupInputEmail1" class="form-label">
@@ -36,8 +36,11 @@ export default class Signup extends React.Component {
           login
         </button>
         <p className="forgot-password text-right">
-          Forgot <a href="#">password?</a>
+          <a href="#">Forgot password?</a>
         </p>
+        <button type="submit" class="btn btn-primary button">
+          Create new account
+        </button>
       </div>
     );
   }
